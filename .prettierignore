@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+package-lock.json
+
+# Build output
+dist/
+build/
+
+# Config files
+.env
+.env.*
+
+# Log files
+*.log
+logs/
+
+# Database files
+*.db
+*.sqlite
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ABIs and generated files
+src/abis/
+
+# Test files
+coverage/
+*.test.js
+*.test.ts
+
+# Other
+*.min.js
+*.min.css 
